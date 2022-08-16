@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
-public class GreatestOfTwoNumbers {
+public class GreatestOfThreeNumbers {
 	public static void main(String[] args) {
 		int numberOne, numberTwo, largest;
 		Scanner scan = new Scanner(System.in);
@@ -10,6 +10,8 @@ public class GreatestOfTwoNumbers {
 		System.out.print("Enter the First Number: ");
 		numberOne = scan.nextInt();
 		System.out.print("Enter the Second Number: ");
+		numberTwo = scan.nextInt();
+		System.out.print("Enter the Third Number: ");
 		numberTwo = scan.nextInt();
 		if (numberOne > numberTwo)
 			largest = numberOne;
@@ -19,3 +21,6 @@ public class GreatestOfTwoNumbers {
 		System.out.println("\nLargest = " + largest);
 	}
 }
+
+
+
